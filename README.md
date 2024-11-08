@@ -1,6 +1,14 @@
 # NgxTraining
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8. (current 18.2.0)
+
+## Links
+
+[GitHub](https://github.com/igor2000xp/ngx-training)
+
+[StackBlitz](https://stackblitz.com/~/github.com/igor2000xp/ngx-training)
+
+/Volumes/MacUss/Users/__louvre02/_angular/Alain/ngx-v18/ngx-training
 
 ## Development server
 
