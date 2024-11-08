@@ -1,4 +1,6 @@
 <p>
     <input type="text" [(ngModel)]="name">
-    <button (click)="alertName()">Click me</button>
+    <button 
+    (click)="alertName()"
+    [style.backgroundColor]="name">Click me</button>
 </p>
