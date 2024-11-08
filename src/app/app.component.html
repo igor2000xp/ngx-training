@@ -3,13 +3,13 @@
 
 <main role="main">
   <!-- Insert jumbotron component here -->
-  <!-- <app-jumbotron title="Welcom to our store" description="Browser our collection of License Plates below"></app-jumbotron> -->
+  <app-jumbotron title="Welcom to our store" description="Browser our collection of License Plates below"></app-jumbotron>
 
   <div class="container">
     <!-- <app-bindings></app-bindings> -->
-    <div class="row" >
+    <div class="row">
       <!-- License plates go here -->
-      <app-license-plate [plate]="licensePlate" buttonText="Add to cart"></app-license-plate>
+      <app-license-plate [plate]="licensePlate" buttonText="Add to cart" class="col-md-4"></app-license-plate>
     </div>
   </div>
 </main>

@@ -6,11 +6,12 @@ import { NavigationComponent } from './navigation/navigation.component';
 // import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { BindingsComponent } from './bindings/bindings.component';
 import { LicensePlateComponent } from './license-plate/license-plate.component';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NavigationComponent, LicensePlateComponent, BindingsComponent],
+  imports: [NavigationComponent, JumbotronComponent, LicensePlateComponent, BindingsComponent],
   // imports: [HelloComponent],
   templateUrl: './app.component.html',
   // styleUrls: ['./app.component.scss']
