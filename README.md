@@ -8,6 +8,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 [StackBlitz](https://stackblitz.com/~/github.com/igor2000xp/ngx-training)
 
+[Notion](https://www.notion.so/Transcript-Introduction-to-Angular-8-Alain-Chautard-1-11f6bddbc4918014bf12c21fdf400ef3?pvs=18)
+
 /Volumes/MacUss/Users/__louvre02/_angular/Alain/ngx-v18/ngx-training
 
 ## Development server
