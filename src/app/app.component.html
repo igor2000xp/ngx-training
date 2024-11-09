@@ -9,7 +9,12 @@
     <!-- <app-bindings></app-bindings> -->
     <div class="row">
       <!-- License plates go here -->
-      <app-license-plate [plate]="licensePlate" buttonText="Add to cart" class="col-md-4"></app-license-plate>
+      <app-license-plate *ngFor="let lp of licensePlates"
+        [plate]="lp"
+        buttonText="Add to cart" 
+        class="col-md-4">
+      </app-license-plate>
+
     </div>
   </div>
 </main>
