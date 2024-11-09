@@ -20,11 +20,7 @@ import { CommonModule } from '@angular/common';
   //     <app-hello></app-hello>
   // `
 })
-export class AppComponent implements OnInit {
-  ngOnInit(): void {
-    // throw new Error('Method not implemented.');
-    console.log(this.licensePlates);
-  }
+export class AppComponent {
   licensePlates: LicensePlate[] = LICENSE_PLATES;
   licensePlate: LicensePlate = CALIFORNIA_PLATE;
 }
