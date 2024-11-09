@@ -10,7 +10,7 @@
     <div class="row">
       <!-- License plates go here -->
       @for(lp of licensePlates; track lp._id) {
-        <app-license-plate *ngFor="let lp of licensePlates"
+        <app-license-plate
           [plate]="lp"
           buttonText="Add to cart" 
           class="col-md-4">
